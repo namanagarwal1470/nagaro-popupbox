@@ -1,0 +1,39 @@
+#box {
+    background-color: rgb(33, 177, 122);
+    height: 300px;
+    width: 600px;
+    visibility: hidden;
+    border-radius: 10px;
+    color: white;
+}
+
+body {
+    background-color: #f7f7fa;
+}
+
+#box.show {
+    visibility: visible;
+}
+
+.clicks {
+    padding: 8px;
+    border-radius: 10px;
+    background-color:#8934e4;
+    color: white;
+    border: none;
+}
+.clicks:focus{
+    outline: none;
+}
+
+.closeBtn{
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    margin-top: 5px;
+    color: white;
+}
+
+.closeBtn:focus{
+    outline: none;
+}
